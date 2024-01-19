@@ -37,3 +37,7 @@ Docker image + compose for create VPN tunnel between VPS
     ```ping xx.xx.xx.xx``` (second VPS IP in VPN)
     ```exit```
 16) End
+
+## Building
+```cd /opt/amnesia-server```
+```docker compose build```
