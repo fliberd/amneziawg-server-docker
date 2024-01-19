@@ -1,3 +1,3 @@
 # Amnesiawg-server-docker
-### forked from https://github.com/amnesia
+### forked from [amnesia-vpn](https://github.com/amnezia-vpn)
 Docker image + compose for create VPN tunnel between VPS 
