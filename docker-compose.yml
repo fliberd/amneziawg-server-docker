@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  amnesia-server-wg:
+    restart: always
+    build: .
+    image: fliberd/amnesia-server:latest
+    network_mode: host
+    container_name: amnesia-server
+    devices:
+      - /dev/net/tun:/dev/net/tun
+    cap_add:
+      - NET_ADMIN
+#    ports:
+#     - "51820:51820"
+    volumes:
+      - ./wireguard:/etc/wireguard
