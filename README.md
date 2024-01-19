@@ -5,7 +5,7 @@ Docker image + compose for create VPN tunnel between VPS
 [Pull Docker image](https://hub.docker.com/r/fliberd/amnesia-server)
 
 ## Step by step guide for debian 11 and 12
-0) Connect to the VPS as a root or other user (```su -```)
+0) Connect to the VPS as a root. Use ```su -```
 1) Update Debian
    ```apt-get update && apt-get full-upgrade -y```
 2) UFW installing and git
