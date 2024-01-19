@@ -24,7 +24,7 @@ Docker image + compose for create VPN tunnel between VPS
     ```mkdir wireguard```
 11) [Create private and public keys for VPS](https://www.webhi.com/how-to/install-configure-wireguard-debian-ubuntu/#:~:text=private%20key%20with%3A-,%24,-wg%20genkey%20%3E)
 12) awg.conf change
-    ```cp awg.conf.example ./wireguard/awg.conf```
+    ```cp awg.conf ./wireguard/awg.conf```
     ```nano ./wireguard/awg.conf```
 13) Enable UFW
     ```ufw allow 22``` (SSH port)
