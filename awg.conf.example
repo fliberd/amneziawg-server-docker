@@ -1,0 +1,22 @@
+
+# awg.conf
+[Interface]
+PrivateKey = SERVER_PRIVATE_KEY
+Address = xx.xx.xx.xx/xx
+ListenPort = 51820
+Jc = 5
+Jmin = 500
+Jmax = 550
+S1 = 30
+S2 = 40
+H1 = 123456
+H2 = 67543
+H3 = 32345
+H4 = 123123
+
+[Peer]
+PublicKey = ANOTHER_SERVER_PUBLIC_KEY
+AllowedIPs = xx.xx.xx.xx/xx
+Endpoint = ANOTHER_SERVER_IP:ANOTHER_SERVER_PORT
+PersistentKeepalive = 25
+
