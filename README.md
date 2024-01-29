@@ -9,7 +9,7 @@ Docker image + compose for create VPN tunnel between VPS
 1) Update Debian
    ```apt-get update && apt-get full-upgrade -y```
 2) UFW installing and git
-   ```apt-get intsall ufw git```
+   ```apt-get install ufw git```
 3) Docker + docker compose installing
    ```wget -qO- get.docker.com | bash```
 4) Make dir
