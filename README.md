@@ -43,5 +43,7 @@ Docker image + compose for create VPN tunnel between VPS
 ```docker compose build```
 
 ## Star history
-[![Star History Chart](https://api.star-history.com/svg?repos=fliberd/amnesiawg-server-docker&type=Date)](https://star-history.com/#fliberd/amnesiawg-server-docker&Date)
 
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=fliberd/amnesiawg-server-docker&type=Date)](https://star-history.com/#fliberd/amnesiawg-server-docker&Date)
